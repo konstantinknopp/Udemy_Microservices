@@ -44,7 +44,7 @@ router.post(
         });
         await order.save();
 
-        res.send({});
+        res.status(201).send(order);
     }
 );
 

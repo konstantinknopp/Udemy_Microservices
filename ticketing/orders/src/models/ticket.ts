@@ -1,6 +1,5 @@
-import { OrderStatus } from "@wanderreisen/common";
 import mongoose from "mongoose";
-import { Order } from "./order";
+import { Order, OrderStatus } from "./order";
 
 interface TicketAttrs {
     title: string;
